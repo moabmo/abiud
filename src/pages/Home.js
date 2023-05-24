@@ -19,23 +19,26 @@ function Home() {
         and expand my skill set, and I am dedicated to staying up-to-date with the latest technologies and trends in the industry.
 
             </p>
-            <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
-            <LinkedIn />
-            </a>
+            <center>
+                <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
+                <LinkedIn />
+                </a>
 
-            <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
-            <Email />
-            </a>
+                <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
+                <Email />
+                </a>
 
-            <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
-            <GitHub />
-            </a>
+                <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
+                <GitHub />
+                </a>
+            </center>
+            
             
         </div>
     </div>
-    <div className='skills'>
-        <h1>Skills</h1>
-        <ol className='list'>
+    <div className='skills'>        
+    <h1>Skills</h1>
+        <div className='list'>
             <li className='item'>
                 <h2>Front-End</h2>
                 <span>HTML/CSS, JavaScript, CSS preprocessors, Front-end frameworks (React, Angular, Vue), Version control (Git).</span>
@@ -72,7 +75,7 @@ function Home() {
                 <h2>Documents</h2>
                 <span>Service Level Agreement (SLA), Request for Proposal (RFP), System Requirements Specification, User Requirements Specification, Technical Specification, Test Plan, Test Cases, User Manual, System Manual, Disaster Recovery Plan (DRP), Business Continuity Plan (BCP), Security Policy.</span>
             </li>
-        </ol>
+        </div>
     </div>
   </div>)
 }

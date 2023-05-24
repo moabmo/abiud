@@ -8,15 +8,26 @@ import '../styles/Experience.css'
 function Experience() {
   return (
     <div className='experience'>
-        <VerticalTimeline lineColor='#3e497a'>
-            <VerticalTimelineElement 
+        <VerticalTimeline lineColor='#3e497a'>       
+
+        <VerticalTimelineElement 
             className='vertical-timeline-element--work' 
-            date = "2022 Dec-" 
+            date = "2023 April" 
             iconStyle={{ background: "#3e497a", color: "orange"}} icon={<Work />} >
                 <h3 className='vertical-timeline-element--education'>
                     Higher Education Loans Board, Nairobi-Kenya
                 </h3>
-                <p>HR and ICT Assistant</p>
+                <p>ICT Assistant</p>
+            </VerticalTimelineElement>
+            
+            <VerticalTimelineElement 
+            className='vertical-timeline-element--work' 
+            date = "2022 Dec- 2023 April" 
+            iconStyle={{ background: "#3e497a", color: "orange"}} icon={<Work />} >
+                <h3 className='vertical-timeline-element--education'>
+                    Higher Education Loans Board, Nairobi-Kenya
+                </h3>
+                <p>HR Business Applications Assistant</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement 
