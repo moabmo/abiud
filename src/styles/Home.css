@@ -7,35 +7,36 @@
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: justify;
     align-items: center;
     text-align: center;
     background-color: black;
-    color: #f0f0f0;
+    color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
-  
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #e9d35b;
-    height: 50px;
+    font-size:400%;
+    color:  rgb(33, 143, 247);
+    margin: 0px;
   }
   
   .about .prompt {
-    width: 40%;
-    font-size: 30px;
+    font-size: 200%;
+    text-align: justify;
+    padding: 1%;
   }
   .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: white;
+    color: rgb(33, 143, 247);
   }
   
   .skills {
-    font-size: 35px;
+    font-size: 200%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -45,21 +46,41 @@
   }
   
   .skills h1 {
-    color: #3e497a;
+    color:  rgb(3, 18, 99);
+    padding: 0;
+    font-size: 200%;
+    border: 0;
+    text-align: center;
+    margin: auto;
   }
   
   .skills .list {
-    list-style: none;
-    width: 80%;
+    list-style: "";
+    width: 95%;
     text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   }
+
   li{
-    background-color: skyblue;
-    border-radius: 5px;
+    background-color:   rgb(33, 143, 247);
+    border-radius: 10px;
     padding: 0.5%;
-    margin: 1%;
+    margin: 2%;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    /* min-height: 300px;
+    float: left;
+    width: 45%; */
   }
-  
+  .skills .list li h2{
+    color: white;
+    margin:0;
+    padding: 0;
+    font-size: 80%;
+    /* text-align: center; */
+  }
   .list span {
     font-size: 20px;
   }
