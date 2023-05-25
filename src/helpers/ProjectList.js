@@ -3,17 +3,17 @@ import proj2 from '../assets/proj2.jpg';
 
 export const ProjectList =[
     {
-        name: "HELB Mobile application",
+        name: "001",
         image: proj1,
         skills: "JavaScript, PhP, CSS, Python",
     },
     {
-        name: "HELB USSD Application",
+        name: "001",
         image: proj2,
         skills: "JavaScript, PhP, CSS, Python",
     },
     {
-        name: "HELB Servicedesk Application",
+        name: "001",
         image: proj1,
         skills: "JavaScript, PhP, CSS, Python",
     },
@@ -28,7 +28,7 @@ export const ProjectList =[
         skills: "JavaScript, PhP, CSS, Python",
     },
     {
-        name: "KESRA Mobile Application",
+        name: "Hosipital Management System",
         image: proj1,
         skills: "JavaScript, PhP, CSS, Python",
     },
