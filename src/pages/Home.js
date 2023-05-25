@@ -24,11 +24,11 @@ function Home() {
                 <LinkedIn />
                 </a>
 
-                <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
+                <a href='mailto:monyorodemongare@gmail.com' target='blank'>
                 <Email />
                 </a>
 
-                <a href='https://www.linkedin.com/in/abiud-m-59430b17a/' target='blank'>
+                <a href='https://github.com/moabmo' target='blank'>
                 <GitHub />
                 </a>
             </center>
