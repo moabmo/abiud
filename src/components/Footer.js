@@ -26,7 +26,7 @@ function Footer() {
               <Facebook />
             </a>
 
-            <a href="https://wa.me/254719356271">
+            <a href="https://wa.me/254719356271" target='blank'>
               <WhatsApp />
             </a>
 
