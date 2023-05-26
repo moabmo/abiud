@@ -75,20 +75,27 @@
     width: 45%; */
   }
 
-  li:hover{
-    background-color:  green;
-    border-radius: 10px;
-    padding: 0.5%;
-    margin: 2%;
-    font-weight: bold;
-    color: black;
-    font-size: 150%;
-     transition: 2s;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
-    /* min-height: 300px;
-    float: left;
-    width: 45%; */
+ li:hover {
+  background-color: green;
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: 2%;
+  font-weight: bold;
+  color: black;
+  font-size: 150%;
+  transition: 3s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+  animation: letter-appear 1s linear forwards;
+}
+
+@keyframes letter-appear {
+  from {
+    width: 0;
   }
+  to {
+    width: auto;
+  }
+}
 
   .skills .list li h2{
     color: white;
