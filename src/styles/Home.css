@@ -62,6 +62,15 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   }
 
+  .skills .list:hover {
+    list-style: "";
+    width: 95%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background-color: yellow;
+  }
+
   li{
     background-color:   rgb(33, 143, 247);
     border-radius: 10px;
