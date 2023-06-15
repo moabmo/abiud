@@ -3,17 +3,17 @@ import proj2 from '../assets/proj2.jpg';
 
 export const ProjectList =[
     {
-        name: "001",
+        name: "Reservation System",
         image: proj1,
         skills: "JavaScript, PhP, CSS, Python",
     },
     {
-        name: "001",
+        name: "Events ticketing application",
         image: proj2,
         skills: "JavaScript, PhP, CSS, Python",
     },
     {
-        name: "001",
+        name: "QR Code generator",
         image: proj1,
         skills: "JavaScript, PhP, CSS, Python",
     },
