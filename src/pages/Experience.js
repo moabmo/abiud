@@ -9,6 +9,16 @@ function Experience() {
   return (
     <div className='experience'>
         <VerticalTimeline lineColor='#3e497a'>       
+      
+        <VerticalTimelineElement 
+            className='vertical-timeline-element--work' 
+            date = "2023 June - Date" 
+            iconStyle={{ background: "lightgreen", color: "black"}} icon={<Work />} >
+                <h3 className='vertical-timeline-element--education'>
+                    Turnkey Africa, Nairobi-Kenya
+                </h3>
+                <p>Business Analyst</p>
+            </VerticalTimelineElement>
 
         <VerticalTimelineElement 
             className='vertical-timeline-element--work' 
