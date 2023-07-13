@@ -1,7 +1,20 @@
-.p{
-    text-align: center;
-    font-size: larger;
-    font-weight: bolder;
-    width: 60%;
-    margin: auto;
+/* Article.css */
+
+.article {
+  width: 60%;
+  background: cream;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.article h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
