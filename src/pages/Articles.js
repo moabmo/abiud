@@ -6,7 +6,9 @@ function Articles() {
   return (
     <>
       <div>
-        <p className='p'>Coming Soon...</p>
+        <p className='p' style={{ width: '60%', background: 'cream', border-radius: '10px', padding: '20px' }}>
+          Coming Soon...
+        </p>
         <h1>Number 13</h1>
         <p>
           The number 13 has long been associated with superstitions and is considered unlucky by many people in various cultures around the world. This fear of the number, known as triskaidekaphobia, has deep historical roots and can be traced back to different origins. One popular theory is that it originates from Norse mythology, where the mischievous god Loki is said to be the 13th guest at a dinner party in Valhalla, leading to chaos and tragedy.
