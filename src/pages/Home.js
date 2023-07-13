@@ -41,7 +41,7 @@ function Home() {
         <div className='list'>
             <li className='item'>
                 <h2>Front-End</h2>
-                <span>HTML/CSS, JavaScript, CSS preprocessors, Front-end frameworks (React, Angular, Vue), Version control (Git).</span>
+                <span>HTML/CSS, JavaScript, CSS preprocessors, Front-end frameworks (React, Angular, Vue), and Version control (Git).</span>
             </li>
             <li className='item'>
                 <h2>Back-End</h2>
@@ -53,7 +53,7 @@ function Home() {
             </li>
             <li className='item'>
                 <h2>Networking</h2>
-                <span>Network architecture and design, TCP/IP protocols, Routing and switching, Network security and firewalls, Network security and firewalls, Wireless networking, Network troubleshooting, Cloud networking, Network virtualization, Network performance monitoring, DNS and DHCP configuration, Load balancing, VPN configuration and management, Network automation & scripting, and Network management and monitoring tools. </span>
+                <span>Network architecture and design, TCP/IP protocols, Routing and Switching, Network security and firewalls, Network security and firewalls, Wireless networking, Network troubleshooting, Cloud networking, Network virtualization, Network performance monitoring, DNS and DHCP configuration, Load balancing, VPN configuration and management, Network automation & scripting, and Network management and monitoring tools. </span>
             </li>
             <li className='item'>
                 <h2>Cybersecurity</h2>
@@ -64,12 +64,8 @@ function Home() {
                 <span>Requirements gathering, Stakeholder management, Process modeling, Data analysis, Problem-solving, Documentation, Communication, Project management, Agile methodologies, Technical understanding.</span>
             </li>
             <li className='item'>
-                <h2>Graphics Design</h2>
-                <span>Network Architecture Design, TCP/IP Networking, Routing and Switching, Network Security, Wireless Networking, Network Management and Administration, Network Troubleshooting and Problem Solving.</span>
-            </li>
-            <li className='item'>
                 <h2>UI/UX Design</h2>
-                <span>User research, Wireframing, Prototyping, Visual design, Information architecture, Interaction design, Design software proficiency.</span>
+                <span>User Research, Wireframing, Prototyping, Visual design, Information architecture, Interaction design, Design software proficiency.</span>
             </li>
             <li className='item'>
                 <h2>Documents</h2>
