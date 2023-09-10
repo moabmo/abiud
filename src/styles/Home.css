@@ -1,0 +1,117 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+  }
+  
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .about h2 {
+    font-family: "Courier New", monospace;
+    font-size:400%;
+    color:  rgb(33, 143, 247);
+    margin: 0px;
+  }
+  
+  .about .prompt {
+    font-size: 200%;
+    text-align: justify;
+    padding: 2%;
+    font-family: "Comic Sans MS", cursive;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: rgb(33, 143, 247);
+  }
+  
+  .skills {
+    font-size: 200%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;  
+    
+  }
+  
+  .skills h1 {
+    color:  rgb(3, 18, 99);
+    padding: 0;
+    font-size: 200%;
+    border: 0;
+    text-align: center;
+    margin: auto;
+    font-family: "Comic Sans MS", cursive;
+  }
+  
+  .skills .list {
+    list-style: "";
+    width: 95%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    font-family: "Courier New", monospace;    
+  }
+
+  li{
+    background-color:   rgb(33, 143, 247);
+    border-radius: 10px;
+    padding: 0.5%;
+    margin: 2%;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    /* min-height: 300px;
+    float: left;
+    width: 45%; */
+  }
+  .skills .list :hover{
+    background-color: goldenrod;
+  }
+  .skills .list li h2{
+    color: white;
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+    /* text-align: center; */
+  }
+ 
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
