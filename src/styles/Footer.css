@@ -1,36 +1,38 @@
 .footer {
-    width: 100%;
-    height: 90px;
-    background:  rgb(33, 143, 247);;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* padding-top: 10px; */
-    margin-top: 10px;
-    margin-bottom: 0px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  }
-  
-  .socialMedia svg {
-    color: rgb(3, 18, 99);
-    margin: 20px;
-    margin-bottom: 0px;
-    font-size: 300%;
-    cursor: pointer;
-  }
-  .socialMedia svg :hover {
-    color: yellow;
-  }
-  
-  .footer p {
-    font-family: "Courier New", monospace;
-    color: rgb(255, 255, 255);
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .footer svg {
+  width: 100%;
+  height: 90px;
+  background:  rgb(33, 143, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 10px; */
+  margin-top: 10px;
+  margin-bottom: 0px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.socialMedia svg {
+  color: rgb(3, 18, 99);
+  margin: 20px;
+  margin-bottom: 0px;
+  font-size: 300%;
+  cursor: pointer;
+}
+
+/* Hover style */
+.socialMedia svg:hover {
+  color: yellow;
+}
+
+.footer p {
+  font-family: "Courier New", monospace;
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer svg {
       font-size: 50px;
-    }
   }
+}
