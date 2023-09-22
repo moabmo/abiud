@@ -46,6 +46,35 @@
     color: black;  
     
   }
+  /* Fixed Row of Cards Style */
+/* Fixed Row of Cards Style with Hover Expand */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: #5a5a5aea;
+}
+
+.item {
+  flex: 1;
+  min-width: calc(26.33% - 10px); /* Three cards per row with a 10px gap */
+  background-color: #4aa6fc;
+  padding: 10px;
+  max-height: 200px;
+  margin-bottom: 10px;
+  overflow: hidden; /* Hide overflow content */
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  background-color: yellow;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: 600px; /* Adjust the max height as needed */
+  /*overflow: auto; /* Enable scrolling for expanded content */
+}
+
+
   
   .skills h1 {
     color:  rgb(3, 18, 99);
@@ -72,23 +101,32 @@
     padding: 0.5%;
     margin: 2%;
     font-weight: bold;
-    color: black;
+    color: yellow;
+    text-align: center;
+    font-weight: bolder;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
     /* min-height: 300px;
     float: left;
     width: 45%; */
   }
   .skills .list :hover{
-    background-color: goldenrod;
+    background-color: yellow;
+    color: black;
   }
   .skills .list li h2{
-    color: white;
+    color: black;
     margin:0;
     padding: 0;
     font-size: 100%;
     /* text-align: center; */
   }
- 
+  .h2 :hover{
+    color: blue;
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+    /* text-align: center; */
+  }
   .list span {
     font-size: 20px;
   }
