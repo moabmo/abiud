@@ -58,14 +58,28 @@
 
 .item {
   flex: 1;
-  min-width: calc(26.33% - 10px); /* Three cards per row with a 10px gap */
   background-color: #4aa6fc;
   padding: 10px;
-  /* max-height: 200px; */
   margin-bottom: 10px;
-  overflow: hidden; /* Hide overflow content */
+  overflow: hidden;
   transition: all 0.5s ease;
 }
+
+@media (min-width: 768px) {
+  .item {
+    flex-basis: calc(28% - 10px); /* Three cards per row with a 10px gap on larger screens */
+  }
+}
+
+@media (max-width: 767px) {
+  .item {
+    flex-basis: 100%; /* Full width on smartphones */
+    max-width: none; /* Remove any max-width constraint */
+  }
+}
+
+
+
 
 .item:hover {
   background-color: yellow;

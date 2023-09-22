@@ -79,7 +79,7 @@ function Home() {
             <li className='item'>
                 <h2>Documents</h2>
                 <span>Defining service levels with SLAs. Crafting compelling RFPs. Specifying system and user requirements. Mapping technical details and orchestrating comprehensive testing. Documenting systems, processes, and recovery plans.</span>
-            </li>
+            </li><br/>
             </div>
 
     </div>
