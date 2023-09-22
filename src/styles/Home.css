@@ -61,16 +61,17 @@
   min-width: calc(26.33% - 10px); /* Three cards per row with a 10px gap */
   background-color: #4aa6fc;
   padding: 10px;
-  max-height: 200px;
+  /* max-height: 200px; */
   margin-bottom: 10px;
   overflow: hidden; /* Hide overflow content */
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .item:hover {
   background-color: yellow;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-height: 600px; /* Adjust the max height as needed */
+  transition: all 0.2s ease;
   /*overflow: auto; /* Enable scrolling for expanded content */
 }
 

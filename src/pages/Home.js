@@ -41,46 +41,47 @@ function Home() {
             
         </div>
     </div>
-    <div className='skills'>        
-    <h1>Skills</h1>
-        <div className='list'>
+    <div className='skills'>   
+        <h1>Skills</h1>
+            <div className='list'>
             <li className='item'>
                 <h2>Front-End</h2>
-                <span>HTML/CSS, JavaScript, CSS preprocessors, Front-end frameworks (React, Angular, Vue), Version control (Git).</span>
+                <span>Building stunning user interfaces with HTML, CSS, and JavaScript. Crafting dynamic experiences with React, Angular, and Vue. Mastering version control with Git.</span>
             </li>
             <li className='item'>
                 <h2>Back-End</h2>
-                <span>Server-side programming languages (Python, Ruby, PHP, Java, .NET), Web frameworks (Flask, Ruby on Rails, Laravel, Spring), Relational databases and SQL (MySQL, PostgreSQL, Oracle), NoSQL databases (MongoDB, Cassandra, Couchbase), API development and integration (RESTful, SOAP), Server administration and management (Linux, Amazon Web Services, Microsoft Azure), Caching and performance optimization (Memcached, Redis), Security and authentication (OAuth, SSL, JWT).</span>
+                <span>Powering the web with Python, Ruby, PHP, Java, and .NET. Crafting server magic with Flask, Ruby on Rails, Laravel, and Spring. Navigating data oceans with MySQL, PostgreSQL, and more. Securing the digital realm with OAuth, SSL, and JWT.</span>
             </li>
             <li className='item'>
                 <h2>Project Management</h2>
-                <span>Leadership, Communication, Risk Management, Time Management, Budget Management, Resource Allocation, Stakeholder Management, Project Planning, Quality Management, Agile/Scrum methodologies.</span>
+                <span>Leading teams with effective communication and risk management. Navigating time and budgets while allocating resources. Charting the course with Agile/Scrum methodologies and ensuring quality at every turn.</span>
             </li>
             <li className='item'>
                 <h2>Networking</h2>
-                <span>Network architecture and design, TCP/IP protocols, Routing and switching, Network security and firewalls, Network security and firewalls, Wireless networking, Network troubleshooting, Cloud networking, Network virtualization, Network performance monitoring, DNS and DHCP configuration, Load balancing, VPN configuration and management, Network automation & scripting, and Network management and monitoring tools. </span>
+                <span>Designing robust network architectures. Mastering TCP/IP protocols and routing. Fortifying networks with security and firewalls. Troubleshooting and optimizing for peak performance. Automating and monitoring for reliability.</span>
             </li>
             <li className='item'>
                 <h2>Cybersecurity</h2>
-                <span>Threat intelligence analysis, Incident response & management, Security information & event management (SIEM), Cryptography & encryption, Cryptography & encryption, Secure software development, Risk management & assessment, Identity & access management (IAM), Cloud security, Compliance & regulatory knowledge, Security architecture & design, Cybersecurity laws and regulations, & Vulnerability assessment & management</span>
+                <span>Unraveling the secrets of threat intelligence. Leading incident response and SIEM efforts. Protecting data with cryptography and encryption. Building secure software and assessing risks. Managing identities and navigating the complex world of cybersecurity laws.</span>
             </li>
             <li className='item'>
                 <h2>Business Analysis</h2>
-                <span>Requirements gathering, Stakeholder management, Process modeling, Data analysis, Problem-solving, Documentation, Communication, Project management, Agile methodologies, Technical understanding.</span>
+                <span>Gathering requirements and managing stakeholders. Modeling processes and analyzing data. Solving problems through effective documentation and project management. Guiding projects with Agile methodologies.</span>
             </li>
             <li className='item'>
                 <h2>Graphics Design</h2>
-                <span>Network Architecture Design, TCP/IP Networking, Routing and Switching, Network Security, Wireless Networking, Network Management and Administration, Network Troubleshooting and Problem Solving.</span>
+                <span>Architecting visually stunning networks. Mastering TCP/IP networking and securing data. Managing networks with finesse and troubleshooting with precision.</span>
             </li>
             <li className='item'>
                 <h2>UI/UX Design</h2>
-                <span>User research, Wireframing, Prototyping, Visual design, Information architecture, Interaction design, Design software proficiency.</span>
+                <span>Unearthing user insights through research. Crafting intuitive wireframes and prototypes. Designing visually captivating experiences with an eye for detail.</span>
             </li>
             <li className='item'>
                 <h2>Documents</h2>
-                <span>Service Level Agreement (SLA), Request for Proposal (RFP), System Requirements Specification, User Requirements Specification, Technical Specification, Test Plan, Test Cases, User Manual, System Manual, Disaster Recovery Plan (DRP), Business Continuity Plan (BCP), Security Policy.</span>
+                <span>Defining service levels with SLAs. Crafting compelling RFPs. Specifying system and user requirements. Mapping technical details and orchestrating comprehensive testing. Documenting systems, processes, and recovery plans.</span>
             </li>
-        </div>
+            </div>
+
     </div>
   </div>)
 }
