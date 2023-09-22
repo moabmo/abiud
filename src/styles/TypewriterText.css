@@ -1,0 +1,41 @@
+/* TypewriterText.css */
+
+.typewriter {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Black background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add padding for spacing */
+  height: 60px; /* Set a fixed height for the typewriter container */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.typewriter-text {
+  display: inline-block; /* Display the text and cursor on the same line */
+  position: relative; /* Position for the cursor */
+}
+
+.typewriter h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-size: 200%;
+}
+
+.cursor {
+  display: inline-block;
+  width: 2px;
+  height: 60px;
+  margin-left: 4px;
+  background-color: #fff; /* White cursor color */
+  animation: blink 1s infinite;
+  position: absolute;
+  top: 0; /* Align cursor with the text */
+  right: 0; /* Move cursor to the right (end of the text) */
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

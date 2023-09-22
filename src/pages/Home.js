@@ -3,13 +3,18 @@ import { LinkedIn } from '@material-ui/icons'
 import { Email } from '@material-ui/icons'
 import { GitHub } from '@material-ui/icons'
 import "../styles/Home.css"
+import TypewriterText from './TypewriterText';
+
 
 
 function Home() {
   return( <div className='home'>
     <div className='about'>
-        <h2>Hello, this is Monyoro</h2>
+    
         <div className='prompt'>
+        <div className="App">
+      <TypewriterText />
+    </div>
             <p>
         As an eager and motivated software developer, I am excited to bring my technical skills and passion for problem-solving to a dynamic team. 
         With a solid foundation in computer science, programming languages, and software development methodologies, 
