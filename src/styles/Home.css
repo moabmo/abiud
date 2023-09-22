@@ -13,7 +13,7 @@
     align-items: center;
     text-align: center;
     background-color: black;
-    color: whitesmoke;
+    color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -43,7 +43,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: black;  
+    color: black; 
     
   }
   /* Fixed Row of Cards Style */
@@ -52,13 +52,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 10px;
-  background-color: #5a5a5aea;
+  gap: 10px; 
 }
 
 .item {
   flex: 1;
-  background-color: #4aa6fc;
+  color: white;
+  background-color: rgb(33, 143, 247);
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
@@ -107,16 +107,17 @@
     text-align: justify;
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    font-family: "Courier New", monospace;    
+    font-family: "Courier New", monospace;   
+
   }
 
-  li{
-    background-color:   rgb(33, 143, 247);
+  li{    
     border-radius: 10px;
     padding: 0.5%;
     margin: 2%;
     font-weight: bold;
-    color: yellow;
+    background-color: yellow;
+    color: black;
     text-align: center;
     font-weight: bolder;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
@@ -128,20 +129,15 @@
     background-color: yellow;
     color: black;
   }
-  .skills .list li h2{
-    color: black;
+   h2{
+    color: rgb(1, 20, 75);
     margin:0;
     padding: 0;
     font-size: 100%;
+    
     /* text-align: center; */
   }
-  .h2 :hover{
-    color: blue;
-    margin:0;
-    padding: 0;
-    font-size: 100%;
-    /* text-align: center; */
-  }
+ 
   .list span {
     font-size: 20px;
   }

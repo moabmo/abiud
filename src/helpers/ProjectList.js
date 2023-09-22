@@ -3,6 +3,16 @@ import proj2 from '../assets/proj2.jpg';
 
 export const ProjectList =[
     {
+        name: "My Portifolio",
+        image: proj1,
+        skills: "JavaScript, React, CSS, HTML",
+    },
+    {
+        name: "CMS(Church Management System)",
+        image: proj1,
+        skills: "JavaScript, PhP, CSS, HTML",
+    },
+    {
         name: "HELB Mobile application",
         image: proj1,
         skills: "JavaScript, PhP, CSS, Python",
