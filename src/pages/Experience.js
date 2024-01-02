@@ -25,6 +25,15 @@ function Experience() {
                     </i>
                 </p>
             </VerticalTimelineElement>
+   <VerticalTimelineElement 
+            className='vertical-timeline-element--work' 
+            date = "2023 Dec" 
+            iconStyle={{ background: "green", color: "white"}} icon={<Work />} >
+                <h3 className='vertical-timeline-element--education'>
+                    Kenya National Examinationations Council, Nairobi-Kenya
+                </h3>
+                <p>Data Capturer</p>
+            </VerticalTimelineElement>
             
             <VerticalTimelineElement 
             className='vertical-timeline-element--work' 
@@ -36,15 +45,7 @@ function Experience() {
                 <p>HR Business Applications Assistant</p>
             </VerticalTimelineElement>
 
-            <VerticalTimelineElement 
-            className='vertical-timeline-element--work' 
-            date = "2022 Jul - Sep" 
-            iconStyle={{ background: "lightgreen", color: "black"}} icon={<Work />} >
-                <h3 className='vertical-timeline-element--education'>
-                    Independent Electoral and Boundaries Commision, Nairobi-Kenya
-                </h3>
-                <p>ICT Clerk</p>
-            </VerticalTimelineElement>
+           
             
 
             <VerticalTimelineElement 
@@ -55,6 +56,16 @@ function Experience() {
                     Kenya National Examinationations Council, Nairobi-Kenya
                 </h3>
                 <p>Data Capturer</p>
+            </VerticalTimelineElement>
+
+               <VerticalTimelineElement 
+            className='vertical-timeline-element--work' 
+            date = "2022 Jul - Sep" 
+            iconStyle={{ background: "lightgreen", color: "black"}} icon={<Work />} >
+                <h3 className='vertical-timeline-element--education'>
+                    Independent Electoral and Boundaries Commision, Nairobi-Kenya
+                </h3>
+                <p>ICT Clerk</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement 
