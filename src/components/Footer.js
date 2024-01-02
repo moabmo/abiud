@@ -31,7 +31,7 @@ function Footer() {
             </a>
 
     </div>
-    <h2>&copy; 2023 monyoro | All rights reserved</h2>
+    <h2>&copy; 2024 monyoro | All rights reserved</h2>
   </div>
 }
 
