@@ -58,7 +58,7 @@
 .item {
   flex: 1;
   color: white;
-  background-image: linear-gradient(to bottom, yellow 17%, rgb(33, 143, 247) 17%);
+  background-image: linear-gradient(to bottom, yellow 17%, rgb(1, 20, 75) 17%);
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
@@ -74,7 +74,7 @@ h2 {
 }
 
 .item:hover {
-  background-image: linear-gradient(to bottom, yellow 17%, rgb(1, 20, 75) 17%);
+  background-image: linear-gradient(to bottom, yellow 17%, rgb(33, 143, 247) 17%);
   padding: 10px;
   margin-bottom: 10px;
   overflow: hidden;
